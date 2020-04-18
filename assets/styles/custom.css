@@ -1,8 +1,11 @@
 body {
     background-color: #E6EFF6;
 }
-.div-1 {
+.div-principal {
     margin-top: 124px;
+    margin-bottom: 124px;
+    position: relative;
+    height: 372px;
 }
 .section-1 {
     width: 45%;
@@ -34,20 +37,13 @@ body {
     font-size: 17.5px;
     color: #C7CBCE;
 }
-.div-2 {
-    width: 45%;
-    height: 217px;
-    background-color: #E6EFF6;
-    margin: auto;
-    margin-bottom: 124px;
-    position: relative;
-}
 .section-2 {
-    width: 50%;
+    width: 22.5%;
     height: 217px;
     background-color: #2BB3B1;
     border-bottom-left-radius: 7px;
     position: relative;
+    left: 376px;
 }
 .p-4 {
     padding-left: 30px;
@@ -97,13 +93,14 @@ a {
     color: white;
 }
 .section-3 {
-    width: 50%;
+    width: 22.5%;
     height: 217px;
     background-color: #4ABEBD;
     position: relative;
-    left: 307px;
-    bottom: 217px;
     border-bottom-right-radius: 7px;
+    position: relative;
+    left: 683px;
+    bottom: 217px;
 }
 .p-7 {
     padding-left: 30px;
